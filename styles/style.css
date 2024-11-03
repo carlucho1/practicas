@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+  width: 120px;
+  height: 120px;
+}
+
+.caja_1{
+  background-color: violet;
+  position: absolute;
+  left: 0px;
+  top: 0px
+}
+
+.caja_2{
+  background-color: greenyellow;
+  position: absolute;
+  left: 120px;
+  top: 120px
+
+}
+
+.caja_3{
+  background-color: red;
+  position: absolute;
+  /* display: none; */
+  left: 240px;
+  top: 240px
+}
+
+.caja_4{
+  background-color: aquamarine;
+  position: absolute;
+  left: 360px;
+  top: 360px
+}
