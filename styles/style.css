@@ -11,14 +11,14 @@ div {
 
 .caja_1{
   background-color: violet;
-  position: relative;
-  left: 30px;
-  top: 20px
+  position: sticky;
+  left: 130px;
+  top: 220px
 }
 
 .caja_2{
   background-color: greenyellow;
-  position: absolute;
+  position: static;
   left: 120px;
   top: 120px
 
@@ -26,7 +26,7 @@ div {
 
 .caja_3{
   background-color: red;
-  position: absolute;
+  position: static;
   /* display: none; */
   left: 240px;
   top: 240px
@@ -34,7 +34,35 @@ div {
 
 .caja_4{
   background-color: aquamarine;
-  position: absolute;
+  position: static;
   left: 360px;
   top: 360px
+}
+
+.caja_5{
+  background-color: yellowgreen;
+  position: static;
+  left: 30px;
+  top: 20px
+}
+
+.caja_6{
+  background-color: yellow;
+  position: static;
+  left: 30px;
+  top: 20px
+}
+
+.caja_7{
+  background-color: rgb(199, 24, 199);
+  position: static;
+  left: 30px;
+  top: 20px
+}
+
+.caja_8{
+  background-color: rgb(62, 39, 62);
+  position: static;
+  left: 30px;
+  top: 20px
 }
