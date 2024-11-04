@@ -11,9 +11,9 @@ div {
 
 .caja_1{
   background-color: violet;
-  position: sticky;
-  left: 130px;
-  top: 220px
+  position: fixed;
+  right: 20px;
+  bottom: 0px
 }
 
 .caja_2{
@@ -61,7 +61,7 @@ div {
 }
 
 .caja_8{
-  background-color: rgb(62, 39, 62);
+  background-color: #00ffff;
   position: static;
   left: 30px;
   top: 20px
