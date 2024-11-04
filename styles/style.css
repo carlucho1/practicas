@@ -13,15 +13,20 @@ div {
   background-color: violet;
   position: fixed;
   right: 20px;
-  bottom: 0px
+  bottom: 20px;
+  border-radius: 80px
 }
 
 .caja_2{
   background-color: greenyellow;
   position: static;
   left: 120px;
-  top: 120px
+  top: 120px;
+  padding: 51px 0px
+}
 
+.caja_2 p{
+  text-align: center;
 }
 
 .caja_3{
