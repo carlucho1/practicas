@@ -28,7 +28,12 @@ body{
     object-fit: contain;
 }
 
-.card h2{
+/* Evita que aparezca la línea debajo del texto del hipervínculo */
+.card a{
+text-decoration: none;  
+}
+
+.card a h2{
     padding-top: 10px;
     text-align: center;
     color: blue;
